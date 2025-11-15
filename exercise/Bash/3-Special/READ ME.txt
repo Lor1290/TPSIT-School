@@ -1,0 +1,4 @@
+Questo è un progetto ancora in fase di sviluppo.
+L'obbiettivo definito sarà quello di sviluppare una architettura 
+Server-Client complessa, tenendo in considerazione anche un multi-
+threading per gestire la multi utenza.

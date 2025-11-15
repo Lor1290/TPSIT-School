@@ -1,0 +1,21 @@
+Il CRON è un utility di sistema che permette di eseguire un’azione pianificata
+
+All’avvio del sistema viene avviato il cron che legge il file di configurazione
+CRONTAB in cui sono memorizzate le informazioni per programmare ogni singola azione 
+da eseguire.
+
+Si può crearne uno proprio con il comando seguente:
+    $ crontab -e.
+
+Il comando può essere utilizzato anche per modificare uno già esistente
+Il file CRONTAB contiene le informazioni per pianificare un’azione. I primi 
+cinque campi specificano i tempi a seguire c’è il comando da eseguire.
+Il valore * significa nel campo dom indica tutti i giorni del mese
+
+Esempi:
+
+- Lo script deve essere eseguito ogni notte alle due e mezza:
+  30 02 * * * / path/myscript.sh
+
+- Lo script deve essere eseguito il giorno 15 di ogni mese alle ore 20:
+  0 20 15 * * /path/myscript.sh
